@@ -11,6 +11,23 @@ Associate Professor, School of Computer Science and Technology, Anhui University
 
 I received my Ph.D. degree from the University of Science and Technology of China in April 2021. My research interests include LLM reasoning, parameter-efficient fine-tuning, and natural language processing and so on. I have published over 30 papers in highly regarded conferences and journals such as ACL, WWW, EMNLP, and TBD. I serve on the Program Committee of several top-tier conferences, including NeurlPS, ACL, EMNLP, NAACL, AAAI, and SIGIR. 
 
+Research Interests
+======
+- Large Language Model
+
+- Parameter Efficient Fine Tuning
+
+- Model/Knowledge Edit
+
+
+
+
+Education
+======
+- Ph.D in Computer Application Technology, University of Science and Technology of China, 2018 
+
+- B.S. in Information Management and Information Systems, Anhui University of Technology, 2012
+
 News
 ======
 - **Apr. 24, 2026** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS)!
@@ -35,5 +52,15 @@ Selected Publications
 - **Lin Mu**, Peiquan Jin, Lizhou Zheng, Enhong Chen, Lihua Yue. Lifecycle-Based Event Detection from Microblogs[C]. *The Web Conference 2018*, WWW 20218.
 - Peiquan Jin, **Lin Mu**, Lizhou Zheng, Jie Zhao, Lihua Yue. News Feature Extraction for Events on Social Network Platforms[C]. *Proceedings of the 26th International Conference 26/41 on World Wide Web*, WWW 2017.
 - **Lin Mu**, Peiquan Jin, Lizhou Zheng, Enhong Chen. EventSys: Tracking Event Evolution on Microblogging Platforms[C]. *Database Systems for Advanced Applications*, DASFAA 2018.
+
+
+
+Contacts
+======
+Email: mulin@ahu.edu.cn
+
+Address: 安徽省合肥市经开区九龙路111号安徽大学理工D楼401室
+
+Zip Code: 230601
 
 
