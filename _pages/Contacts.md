@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
   
-Contacts
-======
 Email: mulin@ahu.edu.cn
 
 Address: 安徽省合肥市经开区九龙路111号安徽大学理工D楼401室
