@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Lin Mu（穆林）"
 author_profile: true
 redirect_from: 
   - /about/
@@ -18,24 +18,17 @@ News
 - **Feb. 13, 2026** Our paper "TMulAMR: Type-Aware Multi-AMR Fusion for Event Argument Extraction" has been accepted by IEEE Transactions on Consumer Electronics (TCE)!
 - **Jan. 16, 2026** Our paper "From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering" has been accepted by WWW 2026!
 
-Publications
+Selected Publications
 ======
-### 2026
 - Li Ni, Haoran Chen, **Lin Mu**, Yiwen Zhang. Unnoticeable community deception based on comprehensive modularity[J]. *IEEE Transactions on Computational Social Systems*, 2026, Accepted. (Corresponding author)
 - **Lin Mu**, Haiyang Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026.
 - **Lin Mu**, Guoji Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026.
 - Wenhao Zhang, **Lin Mu**, Li Ni, Peiquan Jin, Yiwen Zhang. Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026. (Corresponding author)
 - Li Ni, Shuaikang Zeng, **Lin Mu** and Longlong Lin. From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering[C]. *The ACM Web Conference 2026*, WWW 2026. (Corresponding author)
 - **Lin Mu**, Xiaoyu Wang, Li Ni, Yiwen Zhang. TMulAMA: Type-Aware Multi-AMR Fusion for Event Argument Extraction [J]. *IEEE Transactions on Consumer Electronics*, 2026, Accepted.
-  
-### 2025
-
 - **Lin Mu**, Xiaoyu Wang, Li Ni, Yang Li, Zhize Wu, Peiquan Jin, Yiwen Zhang. DenseLoRA: Dense Low-Rank Adaptation of Large Language Models [C]. *The 63rd Annual Meeting o f the Association for Computational Linguistics*, ACL 2025.
 - **Lin Mu**, Jun Shen, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. DICP: Deep In-Context Prompt for Event Causality Identification[C]. *The 2025 Conference on Empirical Methods in Natural Language Processing*, EMNLP 2025. 
 - **Lin Mu**, Yide Cheng, Jun Shen, Yiwen Zhang, Hong Zhong. NetPrompt: Neural Network Prompting Enhances Event Extraction in Large Language Models[J]. *IEEE Transactions on Big Data*, 2025.
-
-### 2024 and earlier
-
 - **Lin Mu**, Wenhao Zhang, Yiwen Zhang, Peiquan Jin. DDPrompt: Differential Diversity Prompting in Large Language Models[C]. *The 62nd Annual Meeting of the Association for Computational Linguistics*, ACL 2024.
 - **Lin Mu**, Peiquan Jin, Yiwen Zhang, Hong Zhong, Jie Zhao. Synonym Recognition from Short Texts: A Self-Supervised Learning Approach[J]. *Expert Systems With Applications*, 2023.
 - **Lin Mu**, Peiquan Jin, Jie Zhao, Enhong Chen. Detecting Evolutionary Stages of Events on Social Media: A Graph-Kernel-Based Approach[J]. *Future Generation Computer Systems*, 2021.
