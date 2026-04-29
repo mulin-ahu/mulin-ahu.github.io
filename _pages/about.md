@@ -22,11 +22,11 @@ Research Interests
 
 Education
 ======
-- Ph.D in Computer Application Technology, University of Science and Technology of China, 2018 
+- Ph.D in Computer Application Technology, University of Science and Technology of China, 2015-2021 
 
-- B.S. in Information Management and Information Systems, Anhui University of Technology, 2012
+- B.S. in Information Management and Information Systems, Anhui University of Technology, 2011-2015
 
-News
+<span style="color: red;">News</span> 
 ======
 - **Apr. 24, 2026** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS) !
   
