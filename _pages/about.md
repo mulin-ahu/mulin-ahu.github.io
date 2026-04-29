@@ -20,8 +20,6 @@ Research Interests
 - Model/Knowledge Edit
 
 
-
-
 Education
 ======
 - Ph.D in Computer Application Technology, University of Science and Technology of China, 2018 
@@ -30,29 +28,62 @@ Education
 
 News
 ======
-- **Apr. 24, 2026** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS)!
-- **Apr. 7, 2026** Our three papers "TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models", "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation", "Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions" have been accepted by ACL 2026!
-- **Feb. 13, 2026** Our paper "TMulAMR: Type-Aware Multi-AMR Fusion for Event Argument Extraction" has been accepted by IEEE Transactions on Consumer Electronics (TCE)!
-- **Jan. 16, 2026** Our paper "From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering" has been accepted by WWW 2026!
+- **Apr. 24, 2026** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS) !
+  
+- **Apr. 7, 2026** Our three papers "TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models", "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation", "Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions" have been accepted by ACL 2026 !
+  
+- **Feb. 13, 2026** Our paper "TMulAMR: Type-Aware Multi-AMR Fusion for Event Argument Extraction" has been accepted by IEEE Transactions on Consumer Electronics (TCE) !
+  
+- **Jan. 16, 2026** Our paper "From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering" has been accepted by WWW 2026 !
 
 Selected Publications
 ======
-- Li Ni, Haoran Chen, **Lin Mu**, Yiwen Zhang. Unnoticeable community deception based on comprehensive modularity[J]. *IEEE Transactions on Computational Social Systems*, 2026, Accepted. (Corresponding author)
+- Li Ni, Haoran Chen, **Lin Mu**, Yiwen Zhang. Unnoticeable community deception based on comprehensive modularity[J]. *IEEE Transactions on Computational Social Systems*, 2026, Accepted. (**Corresponding author**)
+  
 - **Lin Mu**, Haiyang Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026.
+  
 - **Lin Mu**, Guoji Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026.
-- Wenhao Zhang, **Lin Mu**, Li Ni, Peiquan Jin, Yiwen Zhang. Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026. (Corresponding author)
-- Li Ni, Shuaikang Zeng, **Lin Mu** and Longlong Lin. From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering[C]. *The ACM Web Conference 2026*, WWW 2026. (Corresponding author)
+  
+- Wenhao Zhang, **Lin Mu**, Li Ni, Peiquan Jin, Yiwen Zhang. Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026. (**Corresponding author**)
+  
+- Li Ni, Shuaikang Zeng, **Lin Mu** and Longlong Lin. From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering[C]. *The ACM Web Conference 2026*, WWW 2026. (**Corresponding author**)
+  
 - **Lin Mu**, Xiaoyu Wang, Li Ni, Yiwen Zhang. TMulAMA: Type-Aware Multi-AMR Fusion for Event Argument Extraction [J]. *IEEE Transactions on Consumer Electronics*, 2026, Accepted.
-- **Lin Mu**, Xiaoyu Wang, Li Ni, Yang Li, Zhize Wu, Peiquan Jin, Yiwen Zhang. DenseLoRA: Dense Low-Rank Adaptation of Large Language Models [C]. *The 63rd Annual Meeting o f the Association for Computational Linguistics*, ACL 2025.
-- **Lin Mu**, Jun Shen, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. DICP: Deep In-Context Prompt for Event Causality Identification[C]. *The 2025 Conference on Empirical Methods in Natural Language Processing*, EMNLP 2025. 
+  
+- **Lin Mu**, Xiaoyu Wang, Li Ni, Yang Li, Zhize Wu, Peiquan Jin, Yiwen Zhang. DenseLoRA: Dense Low-Rank Adaptation of Large Language Models [C]. *The 63rd Annual Meeting of the Association for Computational Linguistics*, ACL 2025.
+  
+- **Lin Mu**, Jun Shen, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. DICP: Deep In-Context Prompt for Event Causality Identification[C]. *The 2025 Conference on Empirical Methods in Natural Language Processing*, EMNLP 2025.
+  
 - **Lin Mu**, Yide Cheng, Jun Shen, Yiwen Zhang, Hong Zhong. NetPrompt: Neural Network Prompting Enhances Event Extraction in Large Language Models[J]. *IEEE Transactions on Big Data*, 2025.
+  
 - **Lin Mu**, Wenhao Zhang, Yiwen Zhang, Peiquan Jin. DDPrompt: Differential Diversity Prompting in Large Language Models[C]. *The 62nd Annual Meeting of the Association for Computational Linguistics*, ACL 2024.
+  
 - **Lin Mu**, Peiquan Jin, Yiwen Zhang, Hong Zhong, Jie Zhao. Synonym Recognition from Short Texts: A Self-Supervised Learning Approach[J]. *Expert Systems With Applications*, 2023.
+  
 - **Lin Mu**, Peiquan Jin, Jie Zhao, Enhong Chen. Detecting Evolutionary Stages of Events on Social Media: A Graph-Kernel-Based Approach[J]. *Future Generation Computer Systems*, 2021.
-- **Lin Mu**, Peiquan Jin, Lizhou Zheng, Enhong Chen, Lihua Yue. Lifecycle-Based Event Detection from Microblogs[C]. *The Web Conference 2018*, WWW 20218.
+  
+- **Lin Mu**, Peiquan Jin, Lizhou Zheng, Enhong Chen, Lihua Yue. Lifecycle-Based Event Detection from Microblogs[C]. *The Web Conference 2018*, WWW 2018.
+  
 - Peiquan Jin, **Lin Mu**, Lizhou Zheng, Jie Zhao, Lihua Yue. News Feature Extraction for Events on Social Network Platforms[C]. *Proceedings of the 26th International Conference 26/41 on World Wide Web*, WWW 2017.
+  
 - **Lin Mu**, Peiquan Jin, Lizhou Zheng, Enhong Chen. EventSys: Tracking Event Evolution on Microblogging Platforms[C]. *Database Systems for Advanced Applications*, DASFAA 2018.
 
+Students
+======
+
+|  Name  |  Admission Year  |            Notes                                     |
+| --------  | ------| ------------------------------------------------------------ |
+| 程一德     | 2022  | 和张老师合带,发表1篇IEEE TBD (中科院2区),1篇APWEB-WAIM (CCF-C)    |
+|张文豪      | 2023  | 发表2篇ACL（CCF-A）, 获得国家奖学金                         |
+| 王晓玉（女）| 2023  | 发表1篇ACL（CCF-A）, 获得国家奖学金, 安徽省优秀毕业生               |
+| 沈军       | 2023  | 发表1篇EMNLP（CAAI-A）, 1篇IEEE SMC （CCF-C）                   |
+| 王海洋       | 2024  | 发表1篇ACL（CCF-A）                   |
+| 王国基      | 2024  | 发表1篇ACL（CCF-A）                   |
+| 楚国威       | 2024  |                   |
+| 刘书明       | 2025  |                  |
+| 李文杰       | 2025  |                    |
+| 汪平       | 2025  |                    |
+| 李胜杰       | 2025  | 和张老师合带                   |
 
 
 Contacts
