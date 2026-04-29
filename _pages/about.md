@@ -21,13 +21,13 @@ Research Interests
 
 <span style="color: red;">News</span> 
 ======
-🔥 **Apr. 24, 2026** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS)
+🔥 **Apr. 24, 2026：** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS)
   
-🔥 **Apr. 7, 2026** Our three papers "TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models", "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation", "Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions" have been accepted by ACL 2026
+🔥 **Apr. 7, 2026：** Our three papers "TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models", "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation", "Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions" have been accepted by ACL 2026
   
-🔥 **Feb. 13, 2026** Our paper "TMulAMR: Type-Aware Multi-AMR Fusion for Event Argument Extraction" has been accepted by IEEE Transactions on Consumer Electronics (TCE)
+🔥 **Feb. 13, 2026：** Our paper "TMulAMR: Type-Aware Multi-AMR Fusion for Event Argument Extraction" has been accepted by IEEE Transactions on Consumer Electronics (TCE)
   
-🔥 **Jan. 16, 2026** Our paper "From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering" has been accepted by WWW 2026
+🔥 **Jan. 16, 2026：** Our paper "From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering" has been accepted by WWW 2026
 
 Selected Publications
 ======
