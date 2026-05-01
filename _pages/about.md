@@ -74,7 +74,7 @@ Academic Services
 
 - Registration Chair ACM TURC 2021
 
-##**Program Committee**
+**Program Committee**
 
 - NeurIPS 2026
 
