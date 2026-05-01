@@ -31,6 +31,8 @@ Research Interests
 
 Selected Publications
 ======
+The full list of my publications can be found on my [Google Scholar profile](https://scholar.google.com/citations?user=NC97qUkAAAAJ).
+
 - Li Ni, Haoran Chen, **Lin Mu**, Yiwen Zhang. Unnoticeable community deception based on comprehensive modularity[J]. *IEEE Transactions on Computational Social Systems*, 2026, Accepted. (**Corresponding author**)
   
 - **Lin Mu**, Haiyang Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang. TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models[C]. *The 64th Annual Meeting of the Association for Computational Linguistics*, ACL 2026.
@@ -60,6 +62,27 @@ Selected Publications
 - Peiquan Jin, **Lin Mu**, Lizhou Zheng, Jie Zhao, Lihua Yue. News Feature Extraction for Events on Social Network Platforms[C]. *Proceedings of the 26th International Conference 26/41 on World Wide Web*, WWW 2017.
   
 - **Lin Mu**, Peiquan Jin, Lizhou Zheng, Enhong Chen. EventSys: Tracking Event Evolution on Microblogging Platforms[C]. *Database Systems for Advanced Applications*, DASFAA 2018.
+
+
+Academic Services
+======
+- Member of China Computer Federation (CCF)
+
+- Session Chair APWeb-WAIM 2024
+
+- Track Chair DESE 2026
+
+- Registration Chair ACM TURC 2021
+
+##**Program Committee**
+
+- NeurIPS 2026
+
+- ACL ARR 2026
+
+- AAAI 2026
+
+- SIGIR 2026
 
 Students
 ======
