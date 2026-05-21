@@ -21,6 +21,8 @@ Research Interests
 
 <span style="color: red;">News</span> 
 ======
+🔥 **May. 21, 2026：** Our paper "Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompt Attacks" has been accepted by IEEE Transactions on Artificial Intelligence (TAI)
+
 🔥 **Apr. 24, 2026：** Our paper "Unnoticeable community deception based on comprehensive modularity" has been accepted by IEEE Transactions on Computational Social Systems (TCSS)
   
 🔥 **Apr. 7, 2026：** Our three papers "TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models", "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation", "Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions" have been accepted by ACL 2026
@@ -32,6 +34,8 @@ Research Interests
 Selected Publications
 ======
 The full list of my publications can be found on my [Google Scholar profile](https://scholar.google.com/citations?user=NC97qUkAAAAJ).
+
+- **Lin Mu**, Guowei Chu, Li Ni, Lei Sang, Yiwen Zhang. Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompt Attacks[J]. *IEEE Transactions on Artificial Intelligence*, 2026, Accepted. (**Corresponding author**)
 
 - Li Ni, Haoran Chen, **Lin Mu**, Yiwen Zhang. Unnoticeable community deception based on comprehensive modularity[J]. *IEEE Transactions on Computational Social Systems*, 2026, Accepted. (**Corresponding author**)
   
@@ -89,17 +93,20 @@ Students
 
 |  Name  |  Admission Year  |            Notes                                     |
 | --------  | :------:| ------------------------------------------------------------ |
-| 程一德（已毕业）    | 2022  | 和张老师合带,发表1篇IEEE TBD (中科院2区),1篇APWEB-WAIM (CCF-C)    |
+| 程一德（已毕业）    | 2022  | 和张老师合带,发表1篇TBD (IEEE 会刊),1篇APWEB-WAIM (CCF-C)    |
 |张文豪      | 2023  | 发表2篇ACL（CCF-A）, 获得国家奖学金                         |
-| 王晓玉     | 2023  | 发表1篇ACL（CCF-A）, 获得国家奖学金, 安徽省优秀毕业生               |
+| 王晓玉     | 2023  | 发表1篇ACL（CCF-A）, 1篇TCE(IEEE 会刊), 获得国家奖学金, 安徽省优秀毕业生   |
 | 沈军       | 2023  | 发表1篇EMNLP（CAAI-A）, 1篇IEEE SMC （CCF-C）                   |
-| 王海洋       | 2024  | 发表1篇ACL（CCF-A）                   |
-| 王国基      | 2024  | 发表1篇ACL（CCF-A）                   |
-| 楚国威       | 2024  |                   |
-| 刘书明       | 2025  |                  |
-| 李文杰       | 2025  |                    |
-| 汪平       | 2025  |                    |
-| 李胜杰       | 2025  | 和张老师合带                   |
+| 王海洋     | 2024  | 发表1篇ACL（CCF-A）                   |
+| 王国基     | 2024  | 发表1篇ACL（CCF-A）                   |
+| 楚国威     | 2024  | 发表1篇TAI (IEEE 会刊)                 |
+| 刘书明     | 2025  |                  |
+| 李文杰     | 2025  |                  |
+| 汪平       | 2025  |                  |
+| 李胜杰     | 2025  | 和张老师合带      |
+| 杜锦国曦   | 2026  |                  |
+| 苏鑫冉     | 2026  |   和魏老师合带    |
+| 董超博     | 2026  |   和张老师合带    |
 
 
 Contacts
