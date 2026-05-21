@@ -9,7 +9,7 @@ redirect_from:
 
 Associate Professor, School of Computer Science and Technology, Anhui University
 
-I received my Ph.D. degree from the University of Science and Technology of China in April 2021. My research interests include LLM reasoning, parameter-efficient fine-tuning, and natural language processing and so on. I have published over 30 papers in highly regarded conferences and journals such as ACL, WWW, EMNLP, and TBD. I serve on the Program Committee of several top-tier conferences, including NeurlPS, ACL, EMNLP, NAACL, AAAI, and SIGIR. 
+I received my Ph.D. degree from the University of Science and Technology of China in April 2021. My research interests include LLM reasoning, parameter-efficient fine-tuning, and natural language processing and so on. I have published over 30 papers in highly regarded conferences and journals such as ACL, WWW, EMNLP, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Computational Social Systems, IEEE Transactions on Consumer Electronics, and IEEE Transactions on Big Data. I serve on the Program Committee of several top-tier conferences, including NeurlPS, ACL, EMNLP, NAACL, AAAI, and SIGIR. 
 
 Research Interests
 ======
@@ -35,7 +35,7 @@ Selected Publications
 ======
 The full list of my publications can be found on my [Google Scholar profile](https://scholar.google.com/citations?user=NC97qUkAAAAJ).
 
-- **Lin Mu**, Guowei Chu, Li Ni, Lei Sang, Yiwen Zhang. Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompt Attacks[J]. *IEEE Transactions on Artificial Intelligence*, 2026, Accepted. (**Corresponding author**)
+- **Lin Mu**, Guowei Chu, Li Ni, Lei Sang, Yiwen Zhang. Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompt Attacks[J]. *IEEE Transactions on Artificial Intelligence*, 2026, Accepted.
 
 - Li Ni, Haoran Chen, **Lin Mu**, Yiwen Zhang. Unnoticeable community deception based on comprehensive modularity[J]. *IEEE Transactions on Computational Social Systems*, 2026, Accepted. (**Corresponding author**)
   
