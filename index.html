@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lin Mu (穆林) | Anhui University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-light: #eff6ff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -1px rgba(0,0,0,0.05);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
+            --radius: 12px;
+            --radius-sm: 6px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.6;
+        }
+
+        /* ── Navbar ── */
+        .navbar {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+        .navbar-inner {
+            max-width: 1100px; margin: 0 auto;
+            padding: 0 2rem;
+            display: flex; align-items: center; justify-content: space-between;
+            height: 60px;
+        }
+        .navbar-brand {
+            font-weight: 800; font-size: 1rem; color: var(--text);
+            text-decoration: none; letter-spacing: -0.02em;
+        }
+        .navbar-nav { display: flex; gap: 1.75rem; list-style: none; }
+        .navbar-nav a {
+            color: var(--text-light); text-decoration: none;
+            font-size: 0.875rem; font-weight: 500;
+            transition: color 0.2s;
+        }
+        .navbar-nav a:hover { color: var(--primary); }
+
+        /* ── Layout ── */
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+        section { padding: 5rem 0; }
+
+        .section-title {
+            font-size: 1.6rem; font-weight: 800; color: var(--text);
+            margin-bottom: 2rem;
+            display: flex; align-items: center; gap: 0.75rem;
+        }
+        .section-title .title-icon { color: var(--primary); }
+        .section-title::after {
+            content: ''; flex: 1; height: 2px;
+            background: linear-gradient(to right, var(--primary), transparent);
+            border-radius: 2px;
+        }
+
+        /* ── Hero ── */
+        #hero {
+            padding-top: 100px; padding-bottom: 5rem;
+            background: linear-gradient(135deg, #eef4ff 0%, #e8f2ff 40%, #f8fafc 100%);
+        }
+        .hero-content { display: flex; gap: 3rem; align-items: flex-start; }
+
+        .hero-photo {
+            flex-shrink: 0; width: 170px; height: 170px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, #60a5fa 100%);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 3.5rem; color: white;
+            box-shadow: 0 8px 32px rgba(37,99,235,0.25);
+            overflow: hidden;
+        }
+        .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+
+        .hero-info h1 {
+            font-size: 2.4rem; font-weight: 800;
+            letter-spacing: -0.03em; line-height: 1.1;
+        }
+        .hero-info h1 .zh { font-size: 1.4rem; color: var(--text-light); font-weight: 600; margin-left: 0.5rem; }
+        .hero-subtitle { font-size: 1.05rem; color: var(--primary); margin-top: 0.4rem; font-weight: 600; }
+        .hero-affiliation { font-size: 0.9rem; color: var(--text-light); margin-top: 0.2rem; }
+        .hero-affiliation i { color: var(--primary); margin-right: 0.3rem; }
+
+        .hero-bio {
+            margin-top: 1.25rem; color: var(--text-light);
+            font-size: 0.9rem; max-width: 680px; line-height: 1.8;
+        }
+
+        .hero-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+        .tag {
+            background: var(--primary-light); color: var(--primary);
+            padding: 0.3rem 0.9rem; border-radius: 99px;
+            font-size: 0.78rem; font-weight: 600;
+        }
+
+        .hero-links { display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.55rem 1.2rem; border-radius: var(--radius-sm);
+            font-size: 0.85rem; font-weight: 600;
+            text-decoration: none; transition: all 0.2s; cursor: pointer;
+            border: 2px solid transparent;
+        }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-dark); box-shadow: var(--shadow-md); transform: translateY(-1px); }
+        .btn-outline { border-color: var(--border); color: var(--text); background: white; }
+        .btn-outline:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-1px); }
+
+        /* ── Research Cards ── */
+        .research-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+        .research-card {
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-top: 3px solid var(--primary);
+            border-radius: var(--radius); padding: 1.5rem;
+            box-shadow: var(--shadow); transition: all 0.2s;
+        }
+        .research-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+        .research-card .icon { font-size: 1.8rem; margin-bottom: 0.75rem; }
+        .research-card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .research-card p { font-size: 0.83rem; color: var(--text-light); line-height: 1.65; }
+
+        /* ── News ── */
+        #news { background: white; }
+        .news-list { display: flex; flex-direction: column; gap: 0.9rem; }
+        .news-item {
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.1rem 1.4rem;
+            box-shadow: var(--shadow);
+            display: flex; gap: 1rem; align-items: flex-start;
+            transition: all 0.2s;
+        }
+        .news-item:hover { box-shadow: var(--shadow-md); border-color: var(--primary); }
+        .news-date {
+            flex-shrink: 0; background: var(--primary-light); color: var(--primary);
+            padding: 0.25rem 0.75rem; border-radius: var(--radius-sm);
+            font-size: 0.78rem; font-weight: 700; white-space: nowrap; margin-top: 0.1rem;
+        }
+        .news-text { font-size: 0.875rem; color: var(--text); line-height: 1.65; }
+        .news-text strong { color: var(--primary-dark); }
+
+        /* ── Publications ── */
+        .pub-list { display: flex; flex-direction: column; gap: 0.9rem; }
+        .pub-card {
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.1rem 1.4rem;
+            box-shadow: var(--shadow);
+            display: flex; gap: 1.25rem; align-items: flex-start;
+            transition: all 0.2s;
+        }
+        .pub-card:hover { box-shadow: var(--shadow-md); transform: translateX(4px); }
+
+        .pub-venue { flex-shrink: 0; width: 82px; text-align: center; }
+        .venue-name {
+            display: block; background: var(--primary); color: white;
+            padding: 0.3rem 0.4rem; border-radius: var(--radius-sm);
+            font-size: 0.72rem; font-weight: 800; letter-spacing: 0.02em;
+            margin-bottom: 0.3rem;
+        }
+        .venue-year { font-size: 0.8rem; color: var(--text-light); font-weight: 600; }
+
+        .pub-content { flex: 1; }
+        .pub-title { font-weight: 600; font-size: 0.92rem; color: var(--text); margin-bottom: 0.35rem; line-height: 1.5; }
+        .pub-authors { font-size: 0.82rem; color: var(--text-light); margin-bottom: 0.25rem; }
+        .pub-authors .me { font-weight: 700; color: var(--primary-dark); }
+        .pub-meta { font-size: 0.78rem; color: #94a3b8; }
+
+        .badge {
+            display: inline-block; font-size: 0.68rem; font-weight: 700;
+            padding: 0.12rem 0.45rem; border-radius: 99px; margin-left: 0.4rem;
+        }
+        .badge-journal { background: #fef9c3; color: #854d0e; }
+        .badge-conf { background: #dcfce7; color: #166534; }
+
+        .scholar-link { text-align: center; margin-top: 2rem; }
+
+        /* ── Services ── */
+        .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+        .service-card {
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow);
+        }
+        .service-card h3 {
+            font-size: 0.95rem; font-weight: 700; color: var(--text);
+            margin-bottom: 1rem;
+            display: flex; align-items: center; gap: 0.5rem;
+        }
+        .service-card h3 i { color: var(--primary); }
+        .service-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+        .service-list li {
+            font-size: 0.875rem; color: var(--text-light);
+            display: flex; align-items: center; gap: 0.5rem;
+        }
+        .service-list li::before { content: '▸'; color: var(--primary); font-size: 0.7rem; }
+
+        /* ── Students ── */
+        #students { background: white; }
+        .students-table {
+            width: 100%; border-collapse: separate; border-spacing: 0;
+            background: var(--card-bg); border-radius: var(--radius);
+            overflow: hidden; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .students-table thead { background: var(--primary); color: white; }
+        .students-table th { padding: 0.9rem 1.25rem; text-align: left; font-size: 0.875rem; font-weight: 600; }
+        .students-table td { padding: 0.8rem 1.25rem; font-size: 0.875rem; border-bottom: 1px solid var(--border); }
+        .students-table tr:last-child td { border-bottom: none; }
+        .students-table tbody tr:hover { background: #f8fafc; }
+
+        .badge-grad { background: #dcfce7; color: #166534; padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+        .badge-curr { background: #dbeafe; color: #1e40af; padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+
+        /* ── Contact ── */
+        #contact {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+            color: white;
+        }
+        #contact .section-title { color: white; }
+        #contact .section-title::after { background: linear-gradient(to right, rgba(255,255,255,0.4), transparent); }
+
+        .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .contact-card {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: var(--radius); padding: 1.5rem;
+            backdrop-filter: blur(8px);
+        }
+        .contact-card .c-icon { font-size: 1.4rem; margin-bottom: 0.6rem; opacity: 0.9; }
+        .contact-card .c-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.65); margin-bottom: 0.4rem; }
+        .contact-card .c-value { font-size: 0.9rem; color: white; font-weight: 500; }
+        .contact-card a { color: white; text-decoration: none; }
+        .contact-card a:hover { text-decoration: underline; }
+
+        /* ── Footer ── */
+        footer {
+            background: #0f172a; color: rgba(255,255,255,0.5);
+            text-align: center; padding: 2rem; font-size: 0.82rem;
+        }
+        footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .hero-content { flex-direction: column; align-items: center; text-align: center; }
+            .hero-tags, .hero-links { justify-content: center; }
+            .research-grid, .services-grid, .contact-grid { grid-template-columns: 1fr; }
+            .navbar-nav { display: none; }
+            .pub-card { flex-direction: column; }
+            .pub-venue { display: flex; align-items: center; gap: 0.5rem; width: auto; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar-inner">
+        <a href="#hero" class="navbar-brand">Lin Mu · 穆林</a>
+        <ul class="navbar-nav">
+            <li><a href="#research">Research</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-photo">
+                <!-- To add your photo: replace the <i> tag below with <img src="photo.jpg" alt="Lin Mu"> -->
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="hero-info">
+                <h1>Lin Mu<span class="zh">穆林</span></h1>
+                <div class="hero-subtitle">Associate Professor</div>
+                <div class="hero-affiliation">
+                    <i class="fa-solid fa-building-columns"></i>
+                    School of Computer Science and Technology, Anhui University
+                </div>
+                <p class="hero-bio">
+                    I received my Ph.D. degree from the University of Science and Technology of China in April 2021.
+                    My research interests include LLM reasoning, parameter-efficient fine-tuning, and natural language processing.
+                    I have published over 30 papers in top venues including ACL, WWW, EMNLP, IEEE TAI, IEEE TCSS, IEEE TCE, and IEEE TBD.
+                    I serve on the Program Committee of NeurIPS, ACL, EMNLP, NAACL, AAAI, and SIGIR.
+                </p>
+                <div class="hero-tags">
+                    <span class="tag">🧠 LLM Reasoning</span>
+                    <span class="tag">⚡ Parameter-Efficient Fine-Tuning</span>
+                    <span class="tag">✏️ Model / Knowledge Editing</span>
+                    <span class="tag">🌐 Natural Language Processing</span>
+                </div>
+                <div class="hero-links">
+                    <a href="mailto:mulin@ahu.edu.cn" class="btn btn-primary">
+                        <i class="fa-solid fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=YOURID" class="btn btn-outline" target="_blank">
+                        <i class="fa-brands fa-google-scholar"></i> Google Scholar
+                    </a>
+                    <a href="https://github.com/mulin-ahu" class="btn btn-outline" target="_blank">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Research Interests -->
+<section id="research">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-flask title-icon"></i> Research Interests</h2>
+        <div class="research-grid">
+            <div class="research-card">
+                <div class="icon">🧠</div>
+                <h3>LLM Reasoning</h3>
+                <p>Enhancing reasoning capabilities of large language models, including multi-hop reasoning, event causality identification, and robust prompting strategies against adversarial attacks.</p>
+            </div>
+            <div class="research-card">
+                <div class="icon">⚡</div>
+                <h3>Parameter-Efficient Fine-Tuning</h3>
+                <p>Developing efficient LLM adaptation methods such as DenseLoRA, GraphLoRA, TalkLoRA, and PolyLoRA that reduce training costs while achieving competitive or superior performance.</p>
+            </div>
+            <div class="research-card">
+                <div class="icon">✏️</div>
+                <h3>Model / Knowledge Editing</h3>
+                <p>Investigating techniques to update factual knowledge in pre-trained language models without full retraining, with a focus on controlling ripple effects and preserving model integrity.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- News -->
+<section id="news">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-newspaper title-icon"></i> News</h2>
+        <div class="news-list">
+            <div class="news-item">
+                <span class="news-date">May 2026</span>
+                <p class="news-text">🔥 Our paper <strong>"Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompt Attacks"</strong> has been accepted by <strong>IEEE Transactions on Artificial Intelligence (TAI)</strong>.</p>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Apr 2026</span>
+                <p class="news-text">🔥 Our three papers <strong>"TalkLoRA"</strong>, <strong>"GraphLoRA"</strong>, and <strong>"Polynomial Expansion Rank Adaptation"</strong> have been accepted by <strong>ACL 2026</strong>.</p>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Apr 2026</span>
+                <p class="news-text">🔥 Our paper <strong>"Unnoticeable community deception based on comprehensive modularity"</strong> has been accepted by <strong>IEEE Transactions on Computational Social Systems (TCSS)</strong>.</p>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Feb 2026</span>
+                <p class="news-text">🔥 Our paper <strong>"TMulAMR: Type-Aware Multi-AMR Fusion for Event Argument Extraction"</strong> has been accepted by <strong>IEEE Transactions on Consumer Electronics (TCE)</strong>.</p>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Jan 2026</span>
+                <p class="news-text">🔥 Our paper <strong>"From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering"</strong> has been accepted by <strong>WWW 2026</strong>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Publications -->
+<section id="publications" style="background: white;">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-book-open title-icon"></i> Selected Publications</h2>
+        <div class="pub-list">
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">ACL</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">TalkLoRA: Communication-Aware Mixture of Low-Rank Adaptation for Large Language Models</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Haiyang Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang</div>
+                    <div class="pub-meta">The 64th Annual Meeting of the Association for Computational Linguistics<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">ACL</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Guoji Wang, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang</div>
+                    <div class="pub-meta">The 64th Annual Meeting of the Association for Computational Linguistics<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">ACL</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions</div>
+                    <div class="pub-authors">Wenhao Zhang, <span class="me">Lin Mu</span>, Li Ni, Peiquan Jin, Yiwen Zhang</div>
+                    <div class="pub-meta">The 64th Annual Meeting of the Association for Computational Linguistics<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">WWW</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering</div>
+                    <div class="pub-authors">Li Ni, Shuaikang Zeng, <span class="me">Lin Mu</span>, Longlong Lin</div>
+                    <div class="pub-meta">The ACM Web Conference 2026<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">IEEE TAI</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompt Attacks</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Guowei Chu, Li Ni, Lei Sang, Yiwen Zhang</div>
+                    <div class="pub-meta">IEEE Transactions on Artificial Intelligence<span class="badge badge-journal">Journal</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">IEEE TCSS</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">Unnoticeable Community Deception Based on Comprehensive Modularity</div>
+                    <div class="pub-authors">Li Ni, Haoran Chen, <span class="me">Lin Mu</span>, Yiwen Zhang</div>
+                    <div class="pub-meta">IEEE Transactions on Computational Social Systems<span class="badge badge-journal">Journal</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">IEEE TCE</span><span class="venue-year">2026</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">TMulAMA: Type-Aware Multi-AMR Fusion for Event Argument Extraction</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Xiaoyu Wang, Li Ni, Yiwen Zhang</div>
+                    <div class="pub-meta">IEEE Transactions on Consumer Electronics<span class="badge badge-journal">Journal</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">ACL</span><span class="venue-year">2025</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">DenseLoRA: Dense Low-Rank Adaptation of Large Language Models</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Xiaoyu Wang, Li Ni, Yang Li, Zhize Wu, Peiquan Jin, Yiwen Zhang</div>
+                    <div class="pub-meta">The 63rd Annual Meeting of the Association for Computational Linguistics<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">EMNLP</span><span class="venue-year">2025</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">DICP: Deep In-Context Prompt for Event Causality Identification</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Jun Shen, Li Ni, Lei Sang, Zhize Wu, Peiquan Jin, Yiwen Zhang</div>
+                    <div class="pub-meta">The 2025 Conference on Empirical Methods in Natural Language Processing<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">IEEE TBD</span><span class="venue-year">2025</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">NetPrompt: Neural Network Prompting Enhances Event Extraction in Large Language Models</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Yide Cheng, Jun Shen, Yiwen Zhang, Hong Zhong</div>
+                    <div class="pub-meta">IEEE Transactions on Big Data<span class="badge badge-journal">Journal</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">ACL</span><span class="venue-year">2024</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">DDPrompt: Differential Diversity Prompting in Large Language Models</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Wenhao Zhang, Yiwen Zhang, Peiquan Jin</div>
+                    <div class="pub-meta">The 62nd Annual Meeting of the Association for Computational Linguistics<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">ESWA</span><span class="venue-year">2023</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">Synonym Recognition from Short Texts: A Self-Supervised Learning Approach</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Peiquan Jin, Yiwen Zhang, Hong Zhong, Jie Zhao</div>
+                    <div class="pub-meta">Expert Systems With Applications<span class="badge badge-journal">Journal</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">FGCS</span><span class="venue-year">2021</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">Detecting Evolutionary Stages of Events on Social Media: A Graph-Kernel-Based Approach</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Peiquan Jin, Jie Zhao, Enhong Chen</div>
+                    <div class="pub-meta">Future Generation Computer Systems<span class="badge badge-journal">Journal</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">WWW</span><span class="venue-year">2018</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">Lifecycle-Based Event Detection from Microblogs</div>
+                    <div class="pub-authors"><span class="me">Lin Mu</span>, Peiquan Jin, Lizhou Zheng, Enhong Chen, Lihua Yue</div>
+                    <div class="pub-meta">The Web Conference 2018<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <div class="pub-venue"><span class="venue-name">WWW</span><span class="venue-year">2017</span></div>
+                <div class="pub-content">
+                    <div class="pub-title">News Feature Extraction for Events on Social Network Platforms</div>
+                    <div class="pub-authors">Peiquan Jin, <span class="me">Lin Mu</span>, Lizhou Zheng, Jie Zhao, Lihua Yue</div>
+                    <div class="pub-meta">Proceedings of the 26th International Conference on World Wide Web<span class="badge badge-conf">Conference</span></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="scholar-link">
+            <a href="https://scholar.google.com/citations?user=YOURID" class="btn btn-outline" target="_blank">
+                <i class="fa-brands fa-google-scholar"></i>&nbsp; View Full List on Google Scholar
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Academic Services -->
+<section id="services">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-award title-icon"></i> Academic Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3><i class="fa-solid fa-users"></i> Program Committee</h3>
+                <ul class="service-list">
+                    <li>NeurIPS 2026</li>
+                    <li>ACL ARR 2026</li>
+                    <li>AAAI 2026</li>
+                    <li>SIGIR 2026</li>
+                    <li>EMNLP (previous years)</li>
+                    <li>NAACL (previous years)</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3><i class="fa-solid fa-chair"></i> Organizing Roles</h3>
+                <ul class="service-list">
+                    <li>Track Chair, DESE 2026</li>
+                    <li>Session Chair, APWeb-WAIM 2024</li>
+                    <li>Registration Chair, ACM TURC 2021</li>
+                    <li>Member, China Computer Federation (CCF)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Students -->
+<section id="students">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-graduation-cap title-icon"></i> Students</h2>
+        <table class="students-table">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>入学年份</th>
+                    <th>状态</th>
+                    <th>科研成果与荣誉</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>程一德</td>
+                    <td>2022</td>
+                    <td><span class="badge-grad">已毕业</span></td>
+                    <td>和张老师合带，发表1篇TBD (IEEE会刊)，1篇APWeb-WAIM (CCF-C)</td>
+                </tr>
+                <tr>
+                    <td>张文豪</td>
+                    <td>2023</td>
+                    <td><span class="badge-grad">已毕业</span></td>
+                    <td>发表2篇ACL (CCF-A)，获得国家奖学金，读博（天津大学）</td>
+                </tr>
+                <tr>
+                    <td>王晓玉</td>
+                    <td>2023</td>
+                    <td><span class="badge-grad">已毕业</span></td>
+                    <td>发表1篇ACL (CCF-A)，1篇TCE (IEEE会刊)，获得国家奖学金，安徽省优秀毕业生</td>
+                </tr>
+                <tr>
+                    <td>沈军</td>
+                    <td>2023</td>
+                    <td><span class="badge-grad">已毕业</span></td>
+                    <td>发表1篇EMNLP (CAAI-A)，1篇IEEE SMC (CCF-C)</td>
+                </tr>
+                <tr>
+                    <td>王海洋</td>
+                    <td>2024</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>发表1篇ACL (CCF-A)</td>
+                </tr>
+                <tr>
+                    <td>王国基</td>
+                    <td>2024</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>发表1篇ACL (CCF-A)</td>
+                </tr>
+                <tr>
+                    <td>楚国威</td>
+                    <td>2024</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>发表1篇TAI (IEEE会刊)</td>
+                </tr>
+                <tr>
+                    <td>刘书明</td>
+                    <td>2025</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>李文杰</td>
+                    <td>2025</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>汪平</td>
+                    <td>2025</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>李胜杰</td>
+                    <td>2025</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>和张老师合带</td>
+                </tr>
+                <tr>
+                    <td>杜锦国曦</td>
+                    <td>2026</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>苏鑫冉</td>
+                    <td>2026</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>和魏老师合带</td>
+                </tr>
+                <tr>
+                    <td>董超博</td>
+                    <td>2026</td>
+                    <td><span class="badge-curr">在读</span></td>
+                    <td>和张老师合带</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-envelope title-icon"></i> Contact</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="c-label">Email</div>
+                <div class="c-value"><a href="mailto:mulin@ahu.edu.cn">mulin@ahu.edu.cn</a></div>
+            </div>
+            <div class="contact-card">
+                <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="c-label">Address</div>
+                <div class="c-value">安徽大学理工D楼401室<br>九龙路111号，合肥 230601</div>
+            </div>
+            <div class="contact-card">
+                <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="c-label">GitHub</div>
+                <div class="c-value"><a href="https://github.com/mulin-ahu" target="_blank">github.com/mulin-ahu</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Lin Mu (穆林) &nbsp;·&nbsp; Anhui University &nbsp;·&nbsp; <a href="mailto:mulin@ahu.edu.cn">mulin@ahu.edu.cn</a></p>
+    <p style="margin-top:0.4rem; font-size:0.75rem; opacity:0.6;">Last updated June 2026</p>
+</footer>
+
+</body>
+</html>
