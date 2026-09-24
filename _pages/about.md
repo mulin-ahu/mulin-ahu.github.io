@@ -84,9 +84,11 @@ Academic Services
 
 - ACL ARR 2026
 
-- AAAI 2026
+- AAAI 2026，2027
 
 - SIGIR 2026
+  
+- ICLR 2027
 
 Students
 ======
